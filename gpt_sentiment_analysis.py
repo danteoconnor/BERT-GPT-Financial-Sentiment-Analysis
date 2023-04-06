@@ -4,7 +4,7 @@ import pandas as pd
 import openai
 from sklearn.metrics import accuracy_score
 
-openai.api_key = "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"
+openai.api_key = "enter your key here"
 
 finance_news = pd.read_csv('all-data.csv', encoding='ISO-8859-1')
 finance_news.head()
